@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { getListFriends } from '../../../firebase/usercontroller';
+import { getListFriends } from '../../../firebase/userController';
 import SearchBar from '../../component/SearchBar';
 import FriendCard from './FriendCard';
 
