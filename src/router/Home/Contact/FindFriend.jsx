@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, useLoaderData } from 'react-router-dom';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import { addfriend, findUser } from '../../../firebase/usercontroller';
+import { addfriend, findUser } from '../../../firebase/userController';
 import FriendCard from './FriendCard';
 import { requestFriendResponse } from '../../../firebase/friendController';
 
