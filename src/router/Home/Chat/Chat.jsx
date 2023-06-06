@@ -6,8 +6,6 @@ import MessageWrapper from './MessageWrapper';
 import { useDispatch } from 'react-redux';
 import { showOnCreateChat } from '../../../app/createChatSlice';
 import './chat.css'
-import { getListFriends } from '../../../firebase/usercontroller';
-import useChat from '../../../firebase/chatsController';
 /*
 
 groups : {
