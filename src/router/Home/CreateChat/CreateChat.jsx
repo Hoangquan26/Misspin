@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { hideOnCreateChat } from '../../../app/createChatSlice';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
-import { getListFriends } from '../../../firebase/usercontroller';
+import { getListFriends } from '../../../firebase/userController';
 import { auth } from '../../../firebase/config';
 import ImageIcon from '@mui/icons-material/Image';
 import { Button } from '@mui/material';
