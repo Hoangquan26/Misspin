@@ -1,7 +1,5 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React from 'react';;
 import { useLoaderData } from 'react-router-dom';
-import { messagesSelector } from '../../../app/messageSlice';
 import useChat from '../../../firebase/chatsController';
 import ChatItem from './ChatItem';
 
