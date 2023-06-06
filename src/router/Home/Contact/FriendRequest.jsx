@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { getFriendRequest } from '../../../firebase/usercontroller';
+import { getFriendRequest } from '../../../firebase/userController';
 import FriendCard from './FriendCard';
 
 export async function loader({params}) {
